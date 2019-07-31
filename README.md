@@ -1,27 +1,37 @@
-# Foobar
+# Ping
 
-Foobar is a Python library for dealing with word pluralization.
+Ping is a network utility allowing to test host reachability through IP.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+To install ping, you must first:
 
 ```bash
-pip install foobar
+$ git clone git@github.com:Geoffrey42/ping.git
+$ cd ping/
+```
+
+Then build the binary using:
+
+```bash
+$ make
 ```
 
 ## Usage
 
-```python
-import foobar
+Use it like the already installed ping. Only the following options are supported:
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
+usage: ping [-hv] host
+```
+
+With host being only IPv4. FQDN is supported concerning the returning paquet but 
+there is no DNS resolution.
 
 ## Contributing
 Pull requests are welcome.
 For more details, please refers to our [contributing file](.github/CONTRIBUTING/contributing.md).
 
 ## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
