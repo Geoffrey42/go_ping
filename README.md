@@ -1,6 +1,6 @@
-# Ping
+# go_ping
 
-Ping is a network utility allowing to test host reachability through IP.
+**go_ping** is an implementation of ```ping``` written in Go. go_ping is a network utility allowing to test host reachability through IP.
 
 ## Installation
 
@@ -31,6 +31,10 @@ there is no DNS resolution.
 ## Contributing
 Pull requests are welcome.
 For more details, please refers to our [contributing file](.github/CONTRIBUTING/contributing.md).
+
+## Disclaimer
+This subject is based on 42 school ft_ping project [here](assets/ft_ping.fr.pdf)
+written in C.
 
 ## License
 
