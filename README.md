@@ -25,7 +25,7 @@ Use it like **ping** although only the following options are supported:
 usage: go_ping [-hv] host
 ```
 
-With host being only IPv4. FQDN is supported concerning the returning paquet but 
+With host being only IPv4. FQDN is supported concerning the returning packet but 
 there is no DNS resolution.
 
 ## Contributing
