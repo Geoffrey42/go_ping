@@ -7,32 +7,34 @@
 To install go_ping, you must first:
 
 ```bash
-$ git clone git@github.com:Geoffrey42/go_ping.git
-$ cd go_ping/
+git clone git@github.com:Geoffrey42/go_ping.git
+cd go_ping/
 ```
 
 Then build the binary using:
 
 ```bash
-$ make
+make
 ```
 
 ## Usage
 
 Use it like **ping** although only the following options are supported:
 
-```
+```shell
 usage: go_ping [-v] host
 ```
 
-With host being only IPv4. FQDN is supported concerning the returning packet but 
+With host being only IPv4. FQDN is supported concerning the returning packet but
 there is no DNS resolution.
 
 ## Contributing
+
 Pull requests are welcome.
 For more details, please refers to our [contributing file](.github/CONTRIBUTING/contributing.md).
 
 ## Disclaimer
+
 This subject is based on 42 school ft_ping project [here](assets/ft_ping.fr.pdf)
 written in C.
 
