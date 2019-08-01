@@ -22,7 +22,7 @@ $ make
 Use it like **ping** although only the following options are supported:
 
 ```
-usage: go_ping [-hv] host
+usage: go_ping [-v] host
 ```
 
 With host being only IPv4. FQDN is supported concerning the returning packet but 
