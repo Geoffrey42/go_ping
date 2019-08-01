@@ -4,11 +4,11 @@
 
 ## Installation
 
-To install ping, you must first:
+To install go_ping, you must first:
 
 ```bash
-$ git clone git@github.com:Geoffrey42/ping.git
-$ cd ping/
+$ git clone git@github.com:Geoffrey42/go_ping.git
+$ cd go_ping/
 ```
 
 Then build the binary using:
